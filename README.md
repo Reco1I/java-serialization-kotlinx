@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.Reco1I:java-serialization-kotlinx:0.1.0")
+    implementation("com.github.Reco1I.java-serialization-kotlinx:java-serialization-kotlinx:0.1.0")
 }
 ```
 

@@ -11,10 +11,10 @@ plugins {
     `maven-publish`
 }
 
-// JitPack serves it as com.github.Reco1I:java-serialization-kotlinx:<tag>, with an artifact per
-// target (java-serialization-kotlinx-jvm, -android) that Gradle picks from the root one's
-// metadata, which names them with this group.
-group = "com.github.Reco1I"
+// JitPack serves it as com.github.Reco1I.java-serialization-kotlinx:java-serialization-kotlinx:<tag>
+// (the group of its multi-module projects, as it has an artifact per target:
+// java-serialization-kotlinx-jvm, -android, which Gradle picks from the root one's metadata).
+group = "com.github.Reco1I.java-serialization-kotlinx"
 version = "0.1.0"
 
 kotlin {

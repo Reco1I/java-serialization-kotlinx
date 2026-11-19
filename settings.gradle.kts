@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-// The name of the root artifact, as JitPack serves it: com.github.Reco1I:java-serialization-kotlinx.
+// The name of the root artifact, as JitPack serves it (see build.gradle.kts).
 rootProject.name = "java-serialization-kotlinx"
