@@ -1,0 +1,5 @@
+# JitPack builds the library with this, and serves what it publishes to Maven Local.
+jdk:
+  - openjdk17
+install:
+  - ./gradlew publishToMavenLocal --no-configuration-cache
